@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="data[viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+  <link rel="stylesheet" href="./index.css">
+  <title>Registration form</title>
+</head>
+
+<body>
+  <div class="container">
+    <form action="https://sheetdb.io/api/v1/fzra16aylsgg4" method="post" id="form-data">
+      <h3 class="mx-auto mt-1">REGISTRATION</h3>
+      <hr>
+      <div>
+        <label for="name">Full Name </label>
+        <input name="data[name]" type="text" placeholder="  Full Name" required>
+      </div>
+      <div>
+        <label for="dob">DOB</label>
+        <input class="dob" type="date" name="data[DOB]">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input name="data[email]" type="email" placeholder="  shashidhar@gmail.com" required>
+      </div>
+      <div>
+        <label for="clg">College Name</label>
+        <input name="data[clg]" type="text" placeholder="  Girraj college" required>
+      </div>
+      <div>
+        <label for="course">course</label>
+        <input name="data[course]" type="text" placeholder="  Full Stack development" required>
+      </div>
+
+      <div>
+        <label for="passout">passout Year</label>
+        <input name="data[passout]" type="text" placeholder="  2022" required>
+      </div>
+      <div>
+        <label for="contact">Contact</label>
+        <input name="data[contact]" type="number" placeholder="  +91970XXXXXX" required>
+      </div>
+      <div>
+        <label for="reference">Reference Name</label>
+        <input name="data[reference]" type="text" placeholder="  eg:-shashi" required>
+      </div>
+      <div>
+        <div>
+          <input type="radio" name="data[gender]" id="male" required>
+          <label for="male">Male</label>
+          <input type="radio" name="data[gender]" id="femal" required>
+          <label for="femal"> Female</label>
+        </div>
+
+      </div>
+      <div>
+
+        <input class="btn btn-success button btn-lg mx-auto my-2" name="data[submit]" type="submit"
+          onclick="window.location.href='./show.html';" value="Register">
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

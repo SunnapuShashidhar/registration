@@ -1,0 +1,59 @@
+* {
+  /* color: #fff; */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blue;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: grid;
+  row-gap: 5px;
+  height: fit-content;
+  background-color: #aaa;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+input {
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  background-color: #000000af;
+
+}
+
+.dob {
+  padding: 0px 33px;
+  color: #aaaaaaa1;
+}
+
+.button {
+  border-radius: 25px;
+}
+
+body {
+  background-color: #000000aa;
+}
+
+@media screen and (max-width:552px) {
+  body {
+    margin: 20px 0px;
+  }
+}
